@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+
+    <head>
+
+        <!-- Importações e Dados -->
+        <title>Cactus - Principal
+        </title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    </head>
+
+    <header>
+
+        <!-- Menu de Navegação -->
+        <nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color: rgb(25, 25, 25);">
+
+          <a class="navbar-brand" href="index.php">
+            <img src="img/logo.png" style="width:20px;">
+            &nbsp Cactus
+          </a>
+
+          <div class="collapse navbar-collapse flex-row-reverse mx-3" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="catalogo.php/?gn=m">Masculino</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="catalogo.php/?gn=f">Feminino</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contato.php">Fale Conosco</a>
+              </li>
+            </ul>
+          </div>
+
+        </nav>
+
+    </header>
+
+    
+    <body>
+        Olá
+
+    </body>
+
+    <footer>
+
+        <!-- Mapa -->
+        <style>
+            .map-container{
+            overflow:hidden;
+            position:relative;
+            height:0;
+            }
+            .map-container iframe{
+            left:0;
+            top:0;
+            height:80%;
+            width:100%;
+            position:absolute;
+            }
+        </style>
+
+        <div class="col-sm-5 p-2 m-2">
+            <div id="map-container-google-1" class="z-depth-1-half map-container mt-5 p-3" style="height: 350px">
+                <iframe src="https://maps.google.com/maps?q=Gravataí, Morada do Vale 2, Edu Chaves&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                    style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </footer>
+
+</html>
