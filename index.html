@@ -10,11 +10,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <style>@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@100;300&display=swap');
-        header, body, footer{font-family: 'Roboto'; color: rgb(75, 75, 75); background: rgb(250,250,250);};</style>
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@100;300&display=swap');
+        header, body, footer{font-family: 'Roboto'; color: rgb(60, 60, 60); background: rgb(250,250,250)}
+        a:link {color: rgb(60, 60, 60); text-decoration: none;}
+        a:visited {color: rgb(60, 60, 60); text-decoration: none;}
+        a:hover {color: #f0ad4e; text-decoration: none;}
+        a:active {color: rgb(60, 60, 60); text-decoration: none;}
+        </style>
 
     </head>
 
@@ -24,15 +31,22 @@
         <div class="row"> <!--Inicio Row1-->
 
           <div class="col-lg-3 text-center p-3">
-            <img src= "img/Perfil.jpg" style="height: 250px; width: 250px; border-radius: 50%; border: 3px solid #f0ad4e; box-shadow: 10px 3px 10px #00000020;"></a>
+            <img src= "img/Perfil.jpg" class="shadow border border-warning rounded-circle" style="height: 250px; width: 250px"></a>
           </div>
 
-          <div class="col-lg py-5 px-5">
+          <div class="col-lg-6 pt-5 px-5">
             <h1 class="display-3">Yago<p class="text-warning font-weight-bold" style="line-height: 0.6;">Russo</p></h1><br>
             <h4>Técnico em Informática & Designer</h4>
           </div>
 
-          <div class="col-lg-12">
+            <div class="col-lg-3 text-center p-4">
+              <div class="d-flex w-100 h-100 justify-content-center align-items-center text-secondary">
+                <a href="https://github.com/YaGRRusso"><i class="devicon-github-plain mx-2" style="font-size: 32px;"></i></a>
+                <a href="https://linkedin.com/in/yago-russo"><i class="devicon-linkedin-plain mx-2" style="font-size: 32px;"></i></i></a>
+              </div>
+            </div>
+
+          <div class="col-lg-12 pt-3">
             <div class="d-flex">
               <hr class="my-auto flex-grow-1 bg-warning">
             </div>
@@ -159,34 +173,149 @@
             <h5 class="text-warning font-weight-bold mb-3">Hard Skills</h5>
           </div>
 
-          <div class="col-sm text-center">
-            <h1><i class="devicon-css3-plain text-warning"></i></h1>
-            <h6 class="font-weight-bold">CSS3</h6>
-          </div>
+          <div class="col-sm-10">
+            <div class="d-flex flex-wrap justify-content-around"> <!--Inicio Flexbox-->
 
-          <div class="col-sm text-center">
-            <h1><i class="devicon-html5-plain text-warning"></i></h1>
-            <h6 class="font-weight-bold">HTML5</h6>
-          </div>
+              <div class="col-xxl border border-primary rounded shadow-sm py-2 mx-auto mb-3 text-center" style="width: 19%;">
+                <h1><i class="devicon-html5-plain colored"></i></h1>
+                <h6 class="font-weight-bold mb-0">HTML5</h6>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+              </div>
 
-          <div class="col-sm text-center">
-            <h1><i class="devicon-php-plain text-warning"></i></h1>
-            <h6 class="font-weight-bold">PHP</h6>
-          </div>
+              <div class="col-xxl border border-primary rounded shadow-sm py-2 mx-auto mb-3 text-center" style="width: 19%;">
+                <h1><i class="devicon-php-plain colored"></i></h1>
+                <h6 class="font-weight-bold mb-0">PHP</h6>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+              </div>
 
-          <div class="col-sm text-center">
-            <h1><i class="devicon-javascript-plain text-warning"></i></h1>
-            <h6 class="font-weight-bold">JavaScript</h6>
-          </div>
+              <div class="col-xxl border border-primary rounded shadow-sm py-2 mx-auto mb-3 text-center" style="width: 19%;">
+                <h1><i class="devicon-css3-plain colored"></i></h1>
+                <h6 class="font-weight-bold mb-0">CSS3</h6>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+              </div>
+              
+              <div class="col-xxl border border-primary rounded shadow-sm py-2 mx-auto mb-3 text-center" style="width: 19%;">
+                <h1><i class="devicon-javascript-plain colored"></i></h1>
+                <h6 class="font-weight-bold mb-0">JavaScript</h6>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star" style="font-size: 10px;"></span>
+              </div>
 
-          <div class="col-sm text-center">
-            <h1><i class="devicon-bootstrap-plain text-warning"></i></h1>
-            <h6 class="font-weight-bold te">Bootstrap</h6>
-          </div>
+              <div class="col-xxl border border-primary rounded shadow-sm py-2 mx-auto mb-3 text-center" style="width: 19%;">
+                <h1><i class="devicon-bootstrap-plain colored"></i></h1>
+                <h6 class="font-weight-bold mb-0">Bootstrap</h6>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+              </div>
 
-          <div class="col-sm text-center">
-            <h1><i class="devicon-git-plain text-warning"></i></h1>
-            <h6 class="font-weight-bold">Git</h6>
+              <div class="w-100"></div>
+
+              <div class="col-xxl border border-primary rounded shadow-sm py-2 mx-auto mb-3 text-center" style="width: 19%;">
+                <h1><i class="devicon-react-plain colored"></i></h1>
+                <h6 class="font-weight-bold mb-0">React</h6>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star" style="font-size: 10px;"></span>
+                <span class="fa fa-star" style="font-size: 10px;"></span>
+              </div>
+
+              <div class="col-xxl border border-danger rounded shadow-sm py-2 mx-auto mb-3 text-center" style="width: 19%;">
+                <h1><i class="devicon-java-plain colored"></i></h1>
+                <h6 class="font-weight-bold mb-0">Java</h6>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star" style="font-size: 10px;"></span>
+              </div>
+
+              <div class="col-xxl border border-danger rounded shadow-sm py-2 mx-auto mb-3 text-center" style="width: 19%;">
+                <h1><i class="devicon-c-plain colored"></i></h1>
+                <h6 class="font-weight-bold mb-0">C/C++</h6>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star" style="font-size: 10px;"></span>
+              </div>
+
+              <div class="col-xxl border border-danger rounded shadow-sm py-2 mx-auto mb-3 text-center" style="width: 19%;">
+                <h1><i class="devicon-git-plain colored"></i></h1>
+                <h6 class="font-weight-bold mb-0">Git</h6>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+              </div>
+
+              <div class="col-xxl border border-danger rounded shadow-sm py-2 mx-auto mb-3 text-center" style="width: 19%;">
+                <h1><i class="devicon-nodejs-plain colored"></i></h1>
+                <h6 class="font-weight-bold mb-0">Node</h6>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star" style="font-size: 10px;"></span>
+              </div>
+
+              <div class="w-100"></div>
+
+              <div class="col-xxl border border-success rounded shadow-sm py-2 mx-auto mb-3 text-center" style="width: 19%;">
+                <h1><i class="devicon-mysql-plain colored"></i></h1>
+                <h6 class="font-weight-bold mb-0">MySQL</h6>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+              </div>
+
+              <div class="col-xxl border border-success rounded shadow-sm py-2 mx-auto mb-3 text-center" style="width: 19%;">
+                <h1><i class="devicon-firebase-plain colored"></i></h1>
+                <h6 class="font-weight-bold mb-0">Firebase</h6>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star" style="font-size: 10px;"></span>
+              </div>
+
+              <div class="col-xxl border border-dark rounded shadow-sm py-2 mx-auto mb-3 text-center" style="width: 19%;">
+                <h1><i class="devicon-photoshop-plain colored"></i></h1>
+                <h6 class="font-weight-bold mb-0">Photoshop</h6>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+              </div>
+
+              <div class="col-xxl border border-dark rounded shadow-sm py-2 mx-auto mb-3 text-center" style="width: 19%;">
+                <h1><i class="devicon-illustrator-plain colored"></i></h1>
+                <h6 class="font-weight-bold mb-0">Illustrator</h6>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star" style="font-size: 10px;"></span>
+              </div>
+
+              <div class="col-xxl border border-dark rounded shadow-sm py-2 mx-auto mb-3 text-center" style="width: 19%;">
+                <h1><i class="devicon-premierepro-plain colored"></i></h1>
+                <h6 class="font-weight-bold mb-0">Premiere</h6>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
+                <span class="fa fa-star" style="font-size: 10px;"></span>
+                <span class="fa fa-star" style="font-size: 10px;"></span>
+              </div>
+
+            </div> <!--Final Flexbox-->
           </div>
 
         </div> <!--Final Row1-->
