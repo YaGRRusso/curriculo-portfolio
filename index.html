@@ -11,17 +11,12 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/4047a4370c.js" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <style>
-        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@100;300&display=swap');
-        header, body, footer{font-family: 'Roboto'; color: rgb(60, 60, 60); background: rgb(250,250,250)}
-        a:link {color: rgb(60, 60, 60); text-decoration: none;}
-        a:visited {color: rgb(60, 60, 60); text-decoration: none;}
-        a:hover {color: #f0ad4e; text-decoration: none;}
-        a:active {color: rgb(60, 60, 60); text-decoration: none;}
-        </style>
+        <link rel="stylesheet" href="whitemode.css">
+        <!-- <link rel="stylesheet" href="darkmode.css"> -->
 
     </head>
 
@@ -36,13 +31,13 @@
 
           <div class="col-lg-6 pt-5 px-5">
             <h1 class="display-3">Yago<p class="text-warning font-weight-bold" style="line-height: 0.6;">Russo</p></h1><br>
-            <h4>Técnico em Informática & Designer</h4>
+            <h5 class="text-secondary font-italic">Técnico em Informática & Designer</h5>
           </div>
 
             <div class="col-lg-3 text-center p-4">
               <div class="d-flex w-100 h-100 justify-content-center align-items-center text-secondary">
                 <a href="https://github.com/YaGRRusso"><i class="devicon-github-plain mx-2" style="font-size: 32px;"></i></a>
-                <a href="https://linkedin.com/in/yago-russo"><i class="devicon-linkedin-plain mx-2" style="font-size: 32px;"></i></i></a>
+                <a href="https://linkedin.com/in/yago-russo"><i class="devicon-linkedin-plain mx-2" style="font-size: 32px;"></i></a>
               </div>
             </div>
 
@@ -61,27 +56,37 @@
 
       <div class="container"> <!--Inicio Container-->
 
-        <div class="row"> <!--Inicio Row1-->
-          <div class="col-sm">
-            <h5 class="text-warning font-weight-bold my-3" style="line-height: 0.6;">Endereço</h5>
-            <div class="w-100"></div>
-            Gravataí, Morada do Vale 2
-          </div>
-          <div class="col-sm">
-            <h5 class="text-warning font-weight-bold my-3" style="line-height: 0.6;">Telefone</h5>
-            <div class="w-100"></div>
-            (51) 98682-4203
-          </div>
-          <div class="col-sm">
-            <h5 class="text-warning font-weight-bold my-3" style="line-height: 0.6;">Nascimento</h5>
-            <div class="w-100"></div>
-            30 de Novembro de 2001
-          </div>
-          <div class="col-sm">
-            <h5 class="text-warning font-weight-bold my-3" style="line-height: 0.6;">E-mail</h5>
-            <div class="w-100"></div>
-            yagrrusso@gmail.com
-          </div>
+        <div class="row text-center"> <!--Inicio Row1-->
+            <div class="col-lg">
+              <h5 class="text-warning font-weight-bold mt-4" style="line-height: 0.6;"><i class="fas fa-map-marker-alt"></i>&nbsp Endereço</h5>
+              <div class="w-100"></div>
+              Gravataí, RS
+            </div>
+            <div class="col-lg">
+              <h5 class="text-warning font-weight-bold mt-4" style="line-height: 0.6;"><i class="fas fa-phone-alt"></i>&nbsp Telefone</h5>
+              <div class="w-100"></div>
+              <a href="https://api.whatsapp.com/send/?phone=5551986824203&text=Olá,+Yago,+tudo+bem?&app_absent=0">(51) 98682-4203</a>
+            </div>
+            <div class="col-lg">
+              <h5 class="text-warning font-weight-bold mt-4" style="line-height: 0.6;"><i class="fas fa-calendar-minus"></i>&nbsp Nasc</h5>
+              <div class="w-100"></div>
+              30 de nov de 2001
+            </div>
+            <div class="col-lg">
+              <h5 class="text-warning font-weight-bold mt-4" style="line-height: 0.6;"><i class="fas fa-envelope"></i>&nbsp E-mail</h5>
+              <div class="w-100"></div>
+              <a href="mailto:yagrrusso@gmail.com">YaGRRusso@gmail.com</a>
+            </div>
+            <div class="col-lg">
+              <h5 class="text-warning font-weight-bold mt-4" style="line-height: 0.6;"><i class="fas fa-address-card"></i>&nbsp CNH</h5>
+              <div class="w-100"></div>
+              Categoria B
+            </div>
+            <div class="col-lg">
+              <h5 class="text-warning font-weight-bold mt-4" style="line-height: 0.6;"><i class="fas fa-search"></i>&nbsp Interesse</h5>
+              <div class="w-100"></div>
+              Desenvolvedor
+            </div>
         </div> <!--Final Row1-->
 
       </div> <!--Final Container-->
@@ -118,6 +123,35 @@
           </div>
 
           <div class="col-sm">                                                                      <!--Inicio Coluna-->
+
+            <div class="row"> <!--Inicio RowIdioma-->
+
+              <div class="col-sm mb-3">
+                <h5 class="font-weight-bold">Português</h5>
+                <div class="w-100"></div>
+                <div class="progress border border-secondary w-100" style="height: 6px;">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 mb-3">
+                <h5 class="font-weight-bold">Inglês
+                  <span class="mt-2 text-success float-right" style="font-size: 50%;">&nbsp Ler</span>
+                  <span class="mt-2 text-warning float-right" style="font-size: 50%;">&nbsp Ouvir</span>
+                  <span class="mt-2 text-info float-right" style="font-size: 50%;">&nbsp Escrever</span>
+                  <span class="mt-2 text-danger float-right" style="font-size: 50%;">&nbsp Falar</span>
+                </h5>
+                <div class="w-100"></div>
+                <div class="progress border border-secondary w-100" style="height: 6px;">
+                  <div class="progress-bar bg-danger" role="progressbar" style="width: 15%" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar bg-info" role="progressbar" style="width: 15%" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar bg-warning" role="progressbar" style="width: 25%" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 45%" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar bg-secondary" role="progressbar" style="width: 20%" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+            </div> <!--Final RowIdioma-->
 
             <div class="row"> <!--Inicio Row1-->
               <div class="col-sm mb-3">
@@ -212,7 +246,7 @@
                 <span class="fa fa-star" style="font-size: 10px;"></span>
               </div>
 
-              <div class="col-xxl border border-primary rounded shadow-sm py-2 mx-auto mb-3 text-center" style="width: 19%;">
+              <div class="col-xxl border border-info rounded shadow-sm py-2 mx-auto mb-3 text-center" style="width: 19%;">
                 <h1><i class="devicon-bootstrap-plain colored"></i></h1>
                 <h6 class="font-weight-bold mb-0" style="font-size: 80%;">Bootstrap</h6>
                 <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
@@ -223,7 +257,7 @@
 
               <div class="w-100"></div>
 
-              <div class="col-xxl border border-primary rounded shadow-sm py-2 mx-auto mb-3 text-center" style="width: 19%;">
+              <div class="col-xxl border border-info rounded shadow-sm py-2 mx-auto mb-3 text-center" style="width: 19%;">
                 <h1><i class="devicon-react-plain colored"></i></h1>
                 <h6 class="font-weight-bold mb-0" style="font-size: 80%;">React</h6>
                 <span class="fa fa-star text-warning" style="font-size: 10px;"></span>
@@ -321,6 +355,182 @@
         </div> <!--Final Row1-->
 
       </div> <!--Final Container-->
+
+      <div class="container py-5"></div> <!--Container Separador-->
+      <div class="container"> <!--Inicio Container-->
+
+        <div class="row"> <!--Inicio Row1-->
+
+          <div class="col-sm-2">
+            <h5 class="text-warning font-weight-bold mb-3">Experiências</h5>
+          </div>
+
+          <div class="col-sm">
+            <ul class="timeline">
+              <li>
+                <div class="row-lg d-flex flex-wrap">
+                  <div class="col-md-3">
+                    <h6 class="mb-0 text-secondary" style="font-size: 70%;">Set 2020 - Atualmente (Buscando Efetivo)</h6>
+                    <h5 class="font-weight-bold">Lojas Quero-Quero</h5>
+                    <h6 style="font-size: 90%;">Auxiliar Administrativo (Aprendiz)</h6>
+                    <h6 class="mt-0 text-secondary" style="font-size: 70%;"><i class="fas fa-map-marker-alt"></i>&nbsp Cachoeirinha, RS</h6>
+                  </div>
+                  <div class="col-sm">
+                    Auxiiar na parte financeira, onde sou responsável por controle de planilhas de pagamentos, impressões de boletos, conferência de documentos da tesouraria e suporte administrativo por chat à diversas filiais.
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row-lg d-flex flex-wrap">
+                  <div class="col-md-3">
+                    <h6 class="mb-0 text-secondary" style="font-size: 70%;">Out 2019 - Mar 2020</h6>
+                    <h5 class="font-weight-bold";>Instituto Mix</h5>
+                    <h6 style="font-size: 90%;">Monitor de Informática e Tecnologia</h6>
+                    <h6 class="mt-0 text-secondary" style="font-size: 70%;"><i class="fas fa-map-marker-alt"></i>&nbsp Gravataí, RS</h6>
+                  </div>
+                  <div class="col-sm">
+                    Dava aulas de informática e tecnologia como: programação, design gráfico, administração, logística e marketing. Também oferecia suporte aos computadores dos alunos e funcionários como: manutenção, formatação e instalação de softwares.
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+        </div> <!--Final Row1-->
+
+      </div> <!--Final Container-->
+
+      <div class="container"> <!--Inicio Container-->
+
+        <div class="row"> <!--Inicio Row1-->
+
+          <div class="col-sm-2">
+            <h5 class="text-warning font-weight-bold mb-3">Educação</h5>
+          </div>
+
+          <div class="col-sm">
+            <ul class="timeline">
+              <li>
+                <div class="row-lg d-flex flex-wrap">
+                  <div class="col-md-3">
+                    <h6 class="mb-0 text-secondary" style="font-size: 70%;">Jan 2017 - Dez 2020</h6>
+                    <h5 class="font-weight-bold">IFSul - Instituto Federal</h5>
+                    <h6 style="font-size: 90%;">Técnico em Informática para Internet</h6>
+                    <h6 class="mt-0 text-secondary" style="font-size: 70%;"><i class="fas fa-map-marker-alt"></i>&nbsp Gravataí, RS</h6>
+                  </div>
+                  <div class="col-sm">
+                    Libre Office | C++ | Java | Html5 | CSS3 | PHP | SQL | JavaScript | Bootstrap | Kodular | Firebase | Cisco Packet | Manutenção e Formatação | Linux
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row-lg d-flex flex-wrap">
+                  <div class="col-md-3">
+                    <h6 class="mb-0 text-secondary" style="font-size: 70%;">100 Horas</h6>
+                    <h5 class="font-weight-bold">Instituto Mix</h5>
+                    <h6 style="font-size: 90%;">Design Gráfico</h6>
+                    <h6 class="mt-0 text-secondary" style="font-size: 70%;"><i class="fas fa-map-marker-alt"></i>&nbsp Gravataí, RS</h6>
+                  </div>
+                  <div class="col-sm">
+                    Corel Draw | Photoshop CC | Indesign CC | Illustrator CC | Propaganda e Marketing
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row-lg d-flex flex-wrap">
+                  <div class="col-md-3">
+                    <h6 class="mb-0 text-secondary" style="font-size: 70%;">210 Horas</h6>
+                    <h5 class="font-weight-bold">Instituto Mix</h5>
+                    <h6 style="font-size: 90%;">Administração de Pessoal, Financeira e Logística</h6>
+                    <h6 class="mt-0 text-secondary" style="font-size: 70%;"><i class="fas fa-map-marker-alt"></i>&nbsp Gravataí, RS</h6>
+                  </div>
+                  <div class="col-sm">
+                    Secretariado | Marketing Pessoal | Gestão de Pessoas | Administração Financeira e Logística | Operador de Caixa | Contabilidade | Telemarketing e Vendas
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+        </div> <!--Final Row1-->
+
+      </div> <!--Final Container-->
+
+      <div class="container py-5"></div> <!--Container Separador-->
+      <div class="container"> <!--Inicio Container-->
+
+        <div class="row"> <!--Inicio Row1-->
+
+          <div class="col-sm-2">
+            <h5 class="text-warning font-weight-bold mb-3">Redes Sociais</h5>
+          </div>
+
+          <div class="col-sm">                                                                      <!--Inicio Coluna-->
+
+            <div class="row"> <!--Inicio Row1-->
+
+              <div class="col-sm mb-3">
+                <a href="https://github.com/YaGRRusso">
+                  <h5 class="font-weight-bold"><i class="devicon-github-plain"></i>&nbsp Github</h5>
+                  <div class="w-100"></div>
+                  <span style="color: rgb(60, 60, 60);">Todos os meus projetos de desenvolvimento web.</span>
+                </a>
+              </div>
+
+              <div class="col-sm mb-3">
+                <a href="https://linkedin.com/in/yago-russo">
+                  <h5 class="font-weight-bold"><i class="devicon-linkedin-plain"></i>&nbsp LinkedIn</h5>
+                  <div class="w-100"></div>
+                  <span style="color: rgb(60, 60, 60);">Minha rede social com minhas informações profissionais.</span>
+                </a>
+              </div>
+
+              <div class="col-sm mb-3">
+                <a href="https://behance.net/yagorusso">
+                  <h5 class="font-weight-bold"><i class="devicon-behance-plain"></i>&nbsp Behance</h5>
+                  <div class="w-100"></div>
+                  <span style="color: rgb(60, 60, 60);">Alguns dos meus projetos visuais de design gráfico com logos, wallpaper etc.</span>
+                </a>
+              </div>
+
+            </div> <!--Final Row1-->
+
+            <div class="w-100 my-3"></div> <!--Row Separador-->
+
+            <div class="row"> <!--Inicio Row1-->
+
+              <div class="col-sm mb-3">
+                <a href="https://my.indeed.com/p/yagor-m3n5ibi">
+                  <h5 class="font-weight-bold"><i class="fas fa-briefcase"></i>&nbsp Indeed</h5>
+                  <div class="w-100"></div>
+                  <span style="color: rgb(60, 60, 60);">Alguns dos meus projetos visuais de design gráfico com logos, wallpaper etc.</span>
+                </a>
+              </div>
+
+              <div class="col-sm mb-3">
+                <a href="https://api.whatsapp.com/send/?phone=5551986824203&text=Olá,+Yago,+tudo+bem?&app_absent=0">
+                  <h5 class="font-weight-bold"><i class="fab fa-whatsapp"></i>&nbsp Whatsapp</h5>
+                  <div class="w-100"></div>
+                  <span style="color: rgb(60, 60, 60);">Entre em contato diretamente comigo via Whatsapp.</span>
+                </a>
+              </div>
+
+              <div class="col-sm mb-3">
+                <a href="mailto:yagrrusso@gmail.com">
+                  <h5 class="font-weight-bold"><i class="fas fa-envelope"></i>&nbsp E-mail</h5>
+                  <div class="w-100"></div>
+                  <span style="color: rgb(60, 60, 60);">Entre em contato diretamente comigo via e-mail.</span>
+                </a>
+              </div>
+
+            </div> <!--Final Row1-->
+
+          </div>                                                                                      <!--Final Coluna-->
+
+        </div> <!--Final Row1-->
+
+      </div> <!--Final Container-->
+
       <div class="container py-5"></div> <!--Container Separador-->
 
     </body>
