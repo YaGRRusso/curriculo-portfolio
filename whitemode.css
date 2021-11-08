@@ -18,20 +18,40 @@ Dark - #262626
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@100;300;500&display=swap');
 
-header, body, footer{font-family: 'Roboto'; font-weight: 300; color: rgb(60, 60, 60); background: rgb(250,250,250)}
+header,
+body,
+footer {
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: rgb(60, 60, 60);
+    background: rgb(250, 250, 250)
+}
 
-a:link {color: rgb(60, 60, 60); text-decoration: none;}
+a:link {
+    color: rgb(60, 60, 60);
+    text-decoration: none;
+}
 
-a:visited {color: rgb(60, 60, 60); text-decoration: none;}
+a:visited {
+    color: rgb(60, 60, 60);
+    text-decoration: none;
+}
 
-a:hover {color: #f0ad4e !important; text-decoration: none;}
+a:hover {
+    color: #f0ad4e !important;
+    text-decoration: none;
+}
 
-a:active {color: rgb(60, 60, 60); text-decoration: none;}
+a:active {
+    color: rgb(60, 60, 60);
+    text-decoration: none;
+}
 
 ul.timeline {
     list-style-type: none;
     position: relative;
 }
+
 ul.timeline:before {
     content: ' ';
     background: #d4d9df;
@@ -42,11 +62,13 @@ ul.timeline:before {
     height: 100%;
     z-index: 400;
 }
-ul.timeline > li {
+
+ul.timeline>li {
     margin: 20px 0;
     padding-left: 20px;
 }
-ul.timeline > li:before {
+
+ul.timeline>li:before {
     content: ' ';
     background: white;
     display: inline-block;
