@@ -1,4 +1,4 @@
-# Cactus E-Commerce
+# Curriculo Online
 ![GitHub](https://img.shields.io/github/license/YaGRRusso/curriculo-portfolio)
 ![GitHub Repo stars](https://img.shields.io/github/stars/YaGRRusso/curriculo-portfolio?style=social)
 
